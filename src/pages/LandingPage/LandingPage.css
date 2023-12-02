@@ -1,0 +1,36 @@
+#calendar-vector{
+    transform: scaleX(-1);
+    height: 600px;
+    z-index: 0;
+
+}
+
+#main-board-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-page{
+    font-family: var(--body-text);
+    font-weight: bold;
+    text-align: center;
+}
+
+.board-text{
+    max-width: 50%;
+    text-align: center;
+    font-family: var(--body-text);
+}
+
+#login-button-container{
+    column-gap: 10px;
+}
+

@@ -1,0 +1,28 @@
+#login-view{
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-inline: 2%;
+}
+
+#login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-inline: 20%;
+    padding-block: 5%;
+    background-color: var(--);
+}
+
+.login-input{
+    width: 100%;
+    height: 50px;
+    font-family: var(--body-text);
+    font-size: 1.2em;
+    padding-inline: 2%;
+}
+
+#login-button-container{
+    display: flex;
+}

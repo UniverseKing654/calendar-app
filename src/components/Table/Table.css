@@ -1,0 +1,21 @@
+#table-global-component {
+    width: 100%; /* Ajusta el ancho de la tabla al 100% del contenedor */
+    max-width: 700px; /* Establece un ancho máximo para la tabla, ajusta según tus necesidades */
+    margin: 0 auto; /* Centra la tabla horizontalmente en el contenedor */
+    /* Otros estilos para la tabla según tus necesidades */
+}
+  
+  /* Estilos para las celdas de la tabla (ajusta según tus necesidades) */
+#table-global-component td {
+    padding: 6px; /* Espaciado interior de las celdas */
+    border: 1px solid #080808; /* Borde de las celdas */
+    width: 200px;
+}
+  /* Estilos para los elementos de entrada en las celdas (ajusta según tus necesidades) */
+#table-global-component input[type="text"] {
+    width: 100%; /* Ajusta el ancho de los elementos de entrada al 100% de la celda */
+    border: none; /* Sin bordes en los elementos de entrada */
+    outline: none; /* Sin contorno en los elementos de entrada al enfocar */
+    font-size: 11px;
+    background-color: transparent;
+}
