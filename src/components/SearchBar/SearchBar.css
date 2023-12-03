@@ -1,0 +1,34 @@
+form {
+    display: flex; /* Hace que los elementos de formulario se coloquen en línea */
+    margin-bottom: 20px; /* Espacio entre la barra de búsqueda y otros elementos */
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+
+.search-bar{
+    padding: 10px; /* Relleno interno para mejorar la apariencia */
+    border: 1px solid #ccc; /* Borde con color gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño del texto */
+    flex: 1; /* La barra de búsqueda ocupará todo el espacio disponible */
+    margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
+    height: 25px;
+  }
+
+  
+  /* Estilos para el botón */
+button[type="submit"] {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Relleno interno del botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón por encima del botón */
+  }
+  
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+  }

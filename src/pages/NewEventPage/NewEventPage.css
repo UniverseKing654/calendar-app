@@ -1,0 +1,10 @@
+#my-events-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my-events-event-container{
+    display: flex;
+    flex-direction: column;
+}

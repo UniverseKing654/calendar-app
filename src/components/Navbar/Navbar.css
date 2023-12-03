@@ -1,0 +1,116 @@
+    #navbar {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #8266D4;
+        height: 10vh;
+    }
+
+    #navbar-calendar-icon {
+        height: 85%;
+        width: 100%;
+        font-size: 20;
+    }
+
+    #navbar-left-container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-inline: 1%;
+    }
+
+    #navbar-links-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px;
+        gap: 30px
+    }
+
+    #navbar-right-container {   
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-right: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar-logo {
+        height: 100%;
+        filter: var(--svg-filter-button);
+    }
+
+    #navbar-logo:hover {
+        filter: var(--svg-filter-active-colorn);
+    }
+
+    #user-profile-navbar {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-left: 5px;
+        border-left: 2px solid var(--button-color);
+    }
+
+    #user-profile-navbar:hover {
+        cursor: pointer;
+        border-left-color: var(--active-color);
+    }
+
+    #user-profile-navbar:hover #user-profile-icon,
+    #user-profile-navbar:hover #dropdown-icon {
+        filter: var(--svg-filter-active-color);
+    }
+
+    #user-profile-navbar:hover p {
+        color: var(--active-color);
+    }
+
+    #user-profile-icon {
+        height: 80%;
+        aspect-ratio: 1/1;
+        margin-inline: 2vh;
+        filter: var(--svg-filter-button);
+    }
+
+    #dropdown-icon {
+        height: 30%;
+        padding-inline: 2vh;
+        filter: var(--svg-filter-button);
+    }
+
+    .navbar-element {
+        display: flex;
+    }
+
+    .nav-link {
+        color: white;
+        font-family: var(--body-text);
+    }
+
+    .navbar-link {
+        color: white;
+        height: 100%;
+        font-family: var(--body-text);
+    }
+
+    .navbar-link.active::after {
+        content: "";
+        height: 2px;
+        background: white;
+        border-radius: 5px;
+        display: block
+    }
+
+    .navbar-link.active:hover::after {
+        background-color: var(--active-color);
+    }
+
+    #navbar-user-icon{
+        width: 100%;
+        height: 100%;
+    }
+
+

@@ -1,0 +1,71 @@
+.arriba {
+    display: flex;
+    justify-content:center ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cambiarhora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.eliminar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.cambiarhora form {
+    margin-left: 10px; /* Ajusta el margen izquierdo según tus necesidades */
+  }
+.eventos text {
+    margin-right: 10px;
+    margin-left: 10px; /* Ajusta el margen izquierdo según tus necesidades */
+}
+.cambiarnombre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.abajo {
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 10px;
+}
+.eventos {
+    border: 2px solid black; /* Marco negro */
+    padding: 10px; /* Espacio interior alrededor del contenido */
+    flex-direction: column; /* Apilamos elementos verticalmente */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.barrabusqueda {
+    margin-bottom: 0.1%; /* Espacio inferior entre la barra de búsqueda y el contenido siguiente */
+}
+  
+  /* Estilos para "clasesinscritas" (donde está el componente ArrayDisplay) */
+.display {
+    align-self: flex-start; /* Alinea este elemento a la izquierda dentro del contenedor principal */
+}
+.titulo {
+    margin-bottom: 0.1%; /* Espacio inferior entre el título y el contenido siguiente */
+    text-align: center;
+}
+button[type="submit"] {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Relleno interno del botón */
+    font-size: 14px; /* Tamaño del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón por encima del botón */
+}
+.horaevento {
+    margin-top: 10px;
+}

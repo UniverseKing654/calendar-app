@@ -1,0 +1,89 @@
+:root {
+  font-family: var(--body-text);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #292042;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  --primary-color: #8266D4;
+  --button-color: #F9F9F9;
+  --svg-filter-button: invert(99%) sepia(50%) saturate(457%) hue-rotate(285deg) brightness(119%) contrast(95%);
+  --svg-filter-active-color: invert(11%) sepia(35%) saturate(1209%) hue-rotate(216deg) brightness(96%) contrast(92%);
+  --active-color: #292042;
+
+  --body-text: Poppins;
+}
+
+[data-theme="light"]{
+
+    --background-color: #F9F9F9;
+    --background-depth-color: #8c8c8c; 
+    --text-color: #292042;
+    --svg-filter: invert(12%) sepia(15%) saturate(2728%) hue-rotate(216deg) brightness(87%) contrast(92%);
+    
+  
+  } 
+
+[data-theme="dark"]{
+
+  --text-color: #F9F9F9;
+  --background-color: #292042;
+  --background-depth-color: #1C162C;
+  --svg-filter: invert(99%) sepia(50%) saturate(457%) hue-rotate(285deg) brightness(119%) contrast(95%);
+
+} 
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--active-color);
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+button{
+    font-family: var(--body-text);
+    
+}
+
+/*Poppins Font*/
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: myFirstFont;
+    src: url('./assets/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }

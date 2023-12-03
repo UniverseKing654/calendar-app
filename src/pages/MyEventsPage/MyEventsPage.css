@@ -1,0 +1,17 @@
+#my-events-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my-events-event-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#my-events-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
